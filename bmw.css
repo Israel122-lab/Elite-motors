@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:#1a1a1a;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.right_item{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    padding-right: 15px;
+}
+
+
+/* 
+ul li {
+    padding-right: 12px;
+    text-decoration: none;
+    color: white;
+} */
+
+
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    color: #d4af37;
+}
+
+ul li a:hover{
+    border-bottom: 1px white solid;
+}
+
+ul li a:active {
+    border-bottom: 1px white solid;
+    
+}
+
+.modely {
+    margin-top: 30px;
+    
+}
+
+#imagey {
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+    grid-template-rows: auto auto auto ;
+}
+
+#modely_20{
+    background-color:#1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+
+#modely_21{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+#modely_22{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+#modely_23{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+#modely_24{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+#model3_21{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+#model3_22{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+#model3_23{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+#model3_24{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+#modelx_22{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+#modelx_23{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+#modelx_24{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+}
+
+footer {
+    border-top: 1px #d4af37 solid;
+    border-bottom: 1px white solid;
+    border-radius: 2px;
+    color: white;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

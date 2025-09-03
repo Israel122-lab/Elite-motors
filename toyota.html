@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="toyota.css">
+    <script src="index.js" defer></script>
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body >
+
+<header> 
+       <div class="logo"><h1 style="color: black;">Elite Motors</h1></div>
+
+         <div id="cart-icon">  
+                <i class="ri-shopping-cart-line shop"></i>
+                <span class="cart-item-count "></span>
+        </div>
+    
+</header> 
+
+<div class="cart-container">
+    <h2 class="cart-title">Your cart</h2>
+     <div class="cart-content">
+      <!--  <div class="cart-box">
+            <img src="/4 Runner max.jpg" alt="" class="cart-img">
+            <div class="cart-detail">
+                <h2 class="cart-product-title">Toyota <br>4Runner i-FORCE MAX</h2>
+                <span class="cart-price">$100</span>
+                <div class="cart-quantity">
+                    <button id="decrement">-</button>
+                    <span class="number">1</span>
+                    <button id="increment">+</button>
+                </div>
+            </div>
+            <i class="ri-delete-bin-line cart-remove" ></i>
+        </div>-->
+    </div> 
+    <div class="total">
+        <div class="total-title">total</div>
+        <div class="total-price">$0</div>
+    </div>
+    <button class="btn-buy">Buy Now</button>
+    <i class="ri-close-line" id="cart-close"></i>
+</div>
+               
+<section class="shop">
+  <h1 class="section-title">Toyota</h1> 
+  <div id="imagey" >
+
+            <div id="modely_20">
+                <div class="product-box">
+                 <div class="img-box"><img src="/4 Runner max.jpg" alt=""></div>
+                 <p style=" text-align:center;" >Toyota <br>4Runner i-FORCE MAX</p>
+                  <div class="price-and-cart">
+                    <span class="price">$52.490</span>
+                    <i class="ri-shopping-bag-line add-cart"></i>
+                  </div>
+                </div> 
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                 <div class="img-box"><img src="/highlander.jpg" alt="" ></div>
+                 <p style=" text-align:center;">Toyota <br>Highlander</p>
+                  <div class="price-and-cart">
+                    <span class="price">$45.790</span>
+                    <i class="ri-shopping-bag-line add-cart"></i>
+                  </div>
+                </div> 
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                 <div class="img-box"> <img src="/Land cruiser.jpg" alt="" ></div>
+                 <p style=" text-align:center;">Toyota <br>Land Cruiser</p>
+                  <div class="price-and-cart">
+                    <span class="price">$60.000</span>
+                    <i class="ri-shopping-bag-line add-cart"></i>
+                  </div>
+                </div> 
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                 <div class="img-box"><img src="/sequoia.jpg" alt="" ></div>
+                 <p style=" text-align:center;">Toyota <br>sequoia</p>
+                  <div class="price-and-cart">
+                    <span class="price">$82.490</span>
+                    <i class="ri-shopping-bag-line add-cart"></i>
+                  </div>
+                </div> 
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                 <div class="img-box"><img src="/corolla cross hybrid.jpg" alt="" > </div>
+                 <p style=" text-align:center;">Toyota <br>corolla cross hybrid</p>
+                  <div class="price-and-cart">
+                    <span class="price">$67.720</span>
+                    <i class="ri-shopping-bag-line add-cart"></i>
+                  </div>
+                </div> 
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                 <div class="img-box"><img src="/Prius.jpg" alt="" > </div>
+                 <p style="text-align:center;">Toyota <br> Prius</p>
+                 <div class="price-and-cart">
+                    <span class="price">$67.720</span>
+                    <i class="ri-shopping-bag-line add-cart"></i> 
+                 </div>
+                </div>
+            </div>
+
+             <div id="modely_20">
+                <div class="product-box">
+                  <div class="img-box"><img src="/corolla hybrid.jpg" alt="" > </div>
+                  <p style=" text-align:center;">Toyota <br> Corolla Hybrid</p>
+                 <div class="price-and-cart">
+                  <span class="price">$67.720</span>
+                  <i class="ri-shopping-bag-line add-cart"></i>
+                 </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                  <div class="img-box"><img src="/RAV4 hybrid.jpg" alt="" > </div>
+                  <p style=" text-align:center;">Toyota<br> RAV4 Hybrid</p>
+                <div class="price-and-cart">
+                  <span class="price">$67.720</span>
+                  <i class="ri-shopping-bag-line add-cart"></i>
+                 </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                   <div class="img-box"><img src="/Tacoma.jpg" alt="" > </div>
+                   <p style="text-align:center;">Toyota <br> Tacoma i-FORCE MAX</p>
+                  <div class="price-and-cart">
+                    <span class="price">$67.720</span>
+                    <i class="ri-shopping-bag-line add-cart"></i>
+                  </div>
+                </div>
+           </div>
+           <div id="modely_20">
+               <div class="product-box">
+                   <div class="img-box"> <img src="/Tundra.jpg" alt="" > </div>
+                    <p style=" text-align:center;">Toyota <br> Tundra i-FORCE MAX</p>
+                  <div class="price-and-cart">
+                    <span class="price">$67.720</span>
+                    <i class="ri-shopping-bag-line add-cart"></i>
+                  </div>
+                </div>
+            </div>
+           
+            <div id="modely_20">
+                <div class="product-box">
+                  <div class="img-box"> <img src="/SIenna.jpg" alt="" > </div>
+                   <p style=" text-align:center;">Toyota <br>Sienna EV 25</p>
+                   <div class="price-and-cart">
+                      <span class="price">$67.720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                   </div>
+                </div>
+            </div>
+
+           <div id="modely_20">
+                <div class="product-box">
+                  <div class="img-box"><img src="/Crown signia.jpg" alt="" > </div>
+                  <p style=" text-align:center;">Toyota<br> Crown Signia</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67.720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+           </div>
+           
+           
+  </div>
+  
+  <h1 class="section-title">Tesla vehicles</h1> 
+  <div id="imagey" >
+
+    <div id="modely_20">
+      <div class="product-box">
+        <div class="img-box"><img src="/Model Y 2020.jpeg" alt="" > </div>
+        <p style="text-align:center;">Tesla Model Y 20</p>
+        <div class="price-and-cart">
+          <span class="price">$67,720</span>
+          <i class="ri-shopping-bag-line add-cart"></i>
+        </div>
+      </div>
+    </div>
+            <div id="modely_20">
+                <div class="product-box">
+                   <div class="img-box"> <img src="/Model Y 2021.jpeg" alt=""> </div>
+                    <p style=" text-align:center;">Tesla Model Y 21</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                    <div class="img-box"><img src="/Model Y 2022.jpeg" alt="" > </div>
+                    <p style="text-align:center;">Tesla Model Y 22</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                   <div class="img-box"><img src="/Model Y 2023.jpeg" alt="" > </div>
+                   <p style="text-align:center;">Tesla Model Y 23</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                   <div class="img-box"> <img src="/Model Y 2024.jpeg" alt="" > </div>
+                    <p style=" text-align:center;">Tesla Model Y 24</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                    <div class="img-box"><img src="/Model 3 2021.jpeg" alt="" > </div>
+                    <p style="text-align:center;">Tesla Model 3 21</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                    <div class="img-box"><img src="/Model 3 2022.jpeg" alt="" > </div>
+                    <p style="text-align:center;">Tesla Model 3 22</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>    
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                    <div class="img-box"><img src="/Model 3 2023.jpg" alt="" > </div>
+                    <p style=" text-align:center;">Tesla Model 3 23</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                    <div class="img-box"><img src="/Model 3 2024.jpeg" alt="" > </div>
+                    <p style=" text-align:center;">Tesla Model 3 24</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                    <div class="img-box"><img src="/Model x 2022.jpeg" alt="" > </div>
+                    <p style=" text-align:center;">Tesla Model x 22</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                    <div class="img-box"><img src="/Model x 2023.jpeg" alt="" > </div>
+                    <p style=" text-align:center;">Tesla Model x 23</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="modely_20">
+                <div class="product-box">
+                    <div class="img-box"><img src="/Model x 2024.jpeg" alt=""> </div>
+                    <p style=" text-align:center;">Tesla Model x 23</p>
+                    <div class="price-and-cart">
+                      <span class="price">$67,720</span>
+                      <i class="ri-shopping-bag-line add-cart"></i>
+                    </div>
+                </div>
+            </div>
+          
+    </div>
+</section> 
+
+   
+    <footer style=" text-align: center; background-color: #1a1a1a; color: white;">
+        <h4>Elite Motors</h4>
+        <p>123 Main St, California, USA</p>
+        <p> Whatsapp: <a href="tel:+2348166198180" style="color: white;">+2348166198180</a> | Email: <a href="mailto:israelcp773@gmail.com" style="color: white;">israelcp773@gmail.com</a></p>
+         &copy; Elite Motors. All rights reserved <br>
+    </footer>
+
+</body>
+</html>
