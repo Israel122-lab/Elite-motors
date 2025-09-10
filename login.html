@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elite Motors - Login</title>
+  <link rel="stylesheet" href="login.css" />
 </head>
-<body style="background-image: url(/clear\ back.png); background-size: cover; backdrop-filter: blur(2px);">
-   <div class="video-container">
-      <!-- <video autoplay muted loop src="/Introducing Model Y - Tesla (360p, h264).mp4" width="1000px"></video> -->
-   </div>
+<body>
 
-    <div class="content">
-        <form action="">
-            <h1>login</h1>
-        <div class="input">
-            <label for="name">Name</label><br>
-            <input type="text" id="name" required name="name" value="" placeholder="Name/Email"><br>
-        </div>
-            
-        <div class="input">
-            <label for="password">Password</label><br>
-            <input type="password" id="password" name="password" required value="" placeholder="enter your password"><br>
-        </div>
-            
-       <div class="remember-forget">
-            <input type="checkbox" name="Remember" id="Remember" value="Laptop ">
-            <label for="Remember">Remember me</label><br>
+  <div class="content">
+    <h1>Login</h1>
 
-            <a href="/login.html">Forgot Password</a>
-        </div>
-
-         <button type="submit" class="login"> <a href="/toyota.html">Login</a></button>
-
-        </form>
+    <!-- Username -->
+    <div class="input">
+      <input type="text" placeholder="Username" required />
     </div>
-</body>
-</html>
+
+    <!-- Password -->
+    <div class="input">
+      <input type="password" placeholder="Password" required />
+    </div>
+
+    <!-- Remember & Forgot -->
+    <div class="remember-forget">
+      <label><input type="checkbox"> Remember me</label>
+      <a href="#">Forgot Password?</a>
+    </div>
+
+    <!-- Login Button -->
+    <button type="submit"> <a href="/toyota.html">Login</a></button>
+
+    <!-- Optional: Register link -->
+    <p style="margin-top: 1
